@@ -13,8 +13,6 @@ import { setCircleState } from "./linkedList";
 import { CirclePosition } from "../../types/element-states";
 import { nanoid } from 'nanoid';
 
-
-
 export const ListPage: FC = () => {
   const [state, setState] = useState({
     modifiedIndex: -1,
