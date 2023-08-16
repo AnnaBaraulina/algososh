@@ -11,7 +11,7 @@ import { setDelay } from "../../utils/set-delay";
 import { SHORT_DELAY_IN_MS } from "../../constants/delays";
 import { setCircleState } from "./linkedList";
 import { CirclePosition } from "../../types/element-states";
-import { nanoid } from 'nanoid';
+
 
 export const ListPage: FC = () => {
   const [state, setState] = useState({
@@ -266,7 +266,7 @@ export const ListPage: FC = () => {
       <ul className={style.list}>
         {array?.map((item, index) => {
           return (
-            <li className={style.list__item} key={nanoid()}>
+            <li className={style.list__item} key={index}>
               <Circle
                 extraClass={style.circle}
                 index={index}

@@ -80,8 +80,8 @@ export const StringComponent: React.FC = () => {
        <Button text='развернуть' type='submit' isLoader={loader} disabled={!!!inputValue}/>
      </form>
      <ul className={style.list}>
-      {array?.map((item) => (
-        <Circle letter={item.letter} state={item.state} key={nanoid()}/>
+      {array?.map((item, index) => (
+        <Circle letter={item.letter} state={item.state} key={index}/>
       ))}
      </ul>
     </SolutionLayout>

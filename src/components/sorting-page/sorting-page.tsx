@@ -8,7 +8,7 @@ import { ElementStates, SortTypes } from "../../types/element-states";
 import { Direction } from "../../types/direction";
 import { setDelay } from "../../utils/set-delay";
 import { SHORT_DELAY_IN_MS } from "../../constants/delays";
-import { nanoid } from "nanoid";
+
 
 
 export function randomArr(): SortTypes[] {
@@ -178,7 +178,7 @@ export const SortingPage: React.FC = () => {
       <ul className={style.list}>
         {array?.map((item) => {
           return (
-            <Column key={nanoid()} index={item.index} state={item.state}/>
+            <Column key={item.index} index={item.index} state={item.state}/>
           )
         })}
       </ul>

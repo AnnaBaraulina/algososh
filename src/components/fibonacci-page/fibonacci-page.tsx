@@ -6,7 +6,7 @@ import { Button } from "../ui/button/button";
 import { Circle } from "../ui/circle/circle";
 import { setDelay } from "../../utils/set-delay";
 import { SHORT_DELAY_IN_MS } from "../../constants/delays";
-import { nanoid } from "nanoid";
+
 
 
 
@@ -48,7 +48,7 @@ export const FibonacciPage: React.FC = () => {
      </form>
      <ul className={style.list}>
       {array?.map((item, index) => {
-        return <Circle letter={String(item)} index={index} key={nanoid()}/>
+        return <Circle letter={String(item)} index={index} key={index}/>
       })}
      </ul>
     </SolutionLayout>

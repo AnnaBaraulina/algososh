@@ -21,11 +21,10 @@
 }
 
 .list__item {
-    position: relative;
-    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    position: relative;
 }
 
 .button_size_small {
@@ -35,6 +34,10 @@
 .button_size_large {
     min-width: 362px;
 }
+
+.circle {
+    padding: 0 16px;
+  }
 
 .circle__type_add {
     padding: 0;
@@ -49,3 +52,4 @@
     bottom: -94px;
     left: 28px;
 }
+

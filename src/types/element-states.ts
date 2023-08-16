@@ -7,6 +7,7 @@ export enum ElementStates {
 export type ElementTypes = {
   letter: string;
   state: ElementStates;
+ 
 }
 
 export type SortTypes = {
