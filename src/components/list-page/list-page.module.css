@@ -1,0 +1,55 @@
+.form {
+    max-width: 952px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form__container {
+    display: flex;
+    gap: 12px;
+}
+
+.list {
+    max-width: 944px;
+    margin: 0 auto;
+    padding: 120px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+
+.button_size_small {
+    min-width: 175px;
+}
+  
+.button_size_large {
+    min-width: 362px;
+}
+
+.circle {
+    padding: 0 16px;
+  }
+
+.circle__type_add {
+    padding: 0;
+    position: absolute;
+    top: -64px;
+    left: 28px;
+}
+  
+.circle__type_delete {
+    padding: 0;
+    position: absolute;
+    bottom: -94px;
+    left: 28px;
+}
+
