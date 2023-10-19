@@ -6,7 +6,6 @@ import { Circle } from "../ui/circle/circle";
 import { ElementStates } from "../../types/element-states";
 import { ElementTypes } from "../../types/element-states";
 import { DELAY_IN_MS } from "../../constants/delays";
-import { nanoid } from 'nanoid';
 import style from './string.module.css';
 
 export const swap = (
