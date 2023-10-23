@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`тест Circle Circle без букв отрисован корректно 1`] = `
+<div
+  className="content "
+>
+  <div
+    className="text text_type_input text_color_input mb-4 absolute head element"
+  />
+  <div
+    className="circle   default"
+  >
+    <p
+      className="text text_type_circle text_color_input letter"
+    >
+      
+    </p>
+  </div>
+  <p
+    className="text text_type_input text_color_input mt-4 absolute index"
+  />
+  <div
+    className="text text_type_input text_color_input mt-4 absolute tail30 element"
+  />
+</div>
+`;
+
+exports[`тест Circle Circle в состоянии Default отрисован корректно 1`] = `
+<div
+  className="content "
+>
+  <div
+    className="text text_type_input text_color_input mb-4 absolute head element"
+  />
+  <div
+    className="circle   default"
+  >
+    <p
+      className="text text_type_circle text_color_input letter"
+    />
+  </div>
+  <p
+    className="text text_type_input text_color_input mt-4 absolute index"
+  />
+  <div
+    className="text text_type_input text_color_input mt-4 absolute tail30 element"
+  />
+</div>
+`;
+
+exports[`тест Circle Circle в состоянии Modified отрисован корректно 1`] = `
+<div
+  className="content "
+>
+  <div
+    className="text text_type_input text_color_input mb-4 absolute head element"
+  />
+  <div
+    className="circle   modified"
+  >
+    <p
+      className="text text_type_circle text_color_input letter"
+    />
+  </div>
+  <p
+    className="text text_type_input text_color_input mt-4 absolute index"
+  />
+  <div
+    className="text text_type_input text_color_input mt-4 absolute tail30 element"
+  />
+</div>
+`;
+
+exports[`тест Circle Circle с Head отрисован корректно 1`] = `
+<div
+  className="content "
+>
+  <div
+    className="text text_type_input text_color_input mb-4 absolute head string"
+  >
+    head
+  </div>
+  <div
+    className="circle   default"
+  >
+    <p
+      className="text text_type_circle text_color_input letter"
+    />
+  </div>
+  <p
+    className="text text_type_input text_color_input mt-4 absolute index"
+  />
+  <div
+    className="text text_type_input text_color_input mt-4 absolute tail30 element"
+  />
+</div>
+`;
+
+exports[`тест Circle Circle с index отрисован корректно 1`] = `
+<div
+  className="content "
+>
+  <div
+    className="text text_type_input text_color_input mb-4 absolute head element"
+  />
+  <div
+    className="circle   default"
+  >
+    <p
+      className="text text_type_circle text_color_input letter"
+    />
+  </div>
+  <p
+    className="text text_type_input text_color_input mt-4 absolute index"
+  >
+    1
+  </p>
+  <div
+    className="text text_type_input text_color_input mt-4 absolute tail60 element"
+  />
+</div>
+`;
+
+exports[`тест Circle Circle с react-элементом в head отрисован корректно 1`] = `
+<div
+  className="content "
+>
+  <div
+    className="text text_type_input text_color_input mb-4 absolute head element"
+  >
+    <div
+      className="content "
+    >
+      <div
+        className="text text_type_input text_color_input mb-4 absolute head element"
+      />
+      <div
+        className="circle   default"
+      >
+        <p
+          className="text text_type_circle text_color_input letter"
+        />
+      </div>
+      <p
+        className="text text_type_input text_color_input mt-4 absolute index"
+      />
+      <div
+        className="text text_type_input text_color_input mt-4 absolute tail30 element"
+      />
+    </div>
+  </div>
+  <div
+    className="circle   default"
+  >
+    <p
+      className="text text_type_circle text_color_input letter"
+    />
+  </div>
+  <p
+    className="text text_type_input text_color_input mt-4 absolute index"
+  />
+  <div
+    className="text text_type_input text_color_input mt-4 absolute tail30 element"
+  />
+</div>
+`;
+
+exports[`тест Circle Circle с буквами отрисован корректно 1`] = `
+<div
+  className="content "
+>
+  <div
+    className="text text_type_input text_color_input mb-4 absolute head element"
+  />
+  <div
+    className="circle   default"
+  >
+    <p
+      className="text text_type_circle text_color_input letter"
+    >
+      Text
+    </p>
+  </div>
+  <p
+    className="text text_type_input text_color_input mt-4 absolute index"
+  />
+  <div
+    className="text text_type_input text_color_input mt-4 absolute tail30 element"
+  />
+</div>
+`;
+
+exports[`тест Circle Circle с пропом isSmall отрисован корректно 1`] = `
+<div
+  className="content "
+>
+  <div
+    className="text text_type_input text_color_input mb-4 absolute head element"
+  />
+  <div
+    className="circle  small default"
+  >
+    <p
+      className="text text_type_circle text_color_input letter"
+    />
+  </div>
+  <p
+    className="text text_type_input text_color_input mt-4 absolute index"
+  />
+  <div
+    className="text text_type_input text_color_input mt-4 absolute tail30 element"
+  />
+</div>
+`;
